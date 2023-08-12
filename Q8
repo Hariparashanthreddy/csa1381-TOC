@@ -25,6 +25,8 @@ int main() {
     if (simulate_nfa(input)) {
         printf("String is accepted by the NFA.\n");
     } else {
-        printf("String is not accepted by the NFA.\n");
+      printf("string is accepted by the nfa.\n");
+	   
     }
     return 0;
+}
