@@ -22,6 +22,7 @@ int main() {
     if (belongsToLanguage(input, 0, length - 1)) {
         printf("String belongs to the CFG language.\n");
     } else {
-        printf("String does not belong to the CFG language.\n");
+        printf("String does not belong to the CFG language.\n");}
+        return 0;
     }
-    return 0;
+
